@@ -1,0 +1,14 @@
+{
+  "run_duration": 900,
+  "waves": [
+    {"name":"Early I", "start":0, "end":60, "interval":0.90, "count":2, "cap":90, "max_cultists":0, "max_bombers":0, "weights":{"ghoul":100}},
+    {"name":"Early II", "start":60, "end":120, "interval":0.76, "count":2, "cap":130, "max_cultists":0, "max_bombers":0, "weights":{"ghoul":70,"swarmer":30}},
+    {"name":"Build Up", "start":120, "end":180, "interval":0.64, "count":3, "cap":180, "max_cultists":0, "max_bombers":0, "weights":{"ghoul":52,"swarmer":30,"brute":18}},
+    {"name":"Mixed", "start":180, "end":270, "interval":0.54, "count":3, "cap":230, "max_cultists":18, "max_bombers":0, "weights":{"ghoul":43,"swarmer":27,"brute":15,"cultist":15}},
+    {"name":"Pressure", "start":270, "end":420, "interval":0.45, "count":4, "cap":300, "max_cultists":28, "max_bombers":14, "weights":{"ghoul":36,"swarmer":27,"brute":15,"cultist":13,"bomber":9}},
+    {"name":"Horde", "start":420, "end":570, "interval":0.36, "count":5, "cap":360, "max_cultists":36, "max_bombers":18, "weights":{"ghoul":31,"swarmer":32,"brute":15,"cultist":13,"bomber":9}},
+    {"name":"High Pressure", "start":570, "end":720, "interval":0.29, "count":6, "cap":420, "max_cultists":42, "max_bombers":22, "weights":{"ghoul":28,"swarmer":31,"brute":17,"cultist":14,"bomber":10}},
+    {"name":"Final Build", "start":720, "end":840, "interval":0.23, "count":7, "cap":470, "max_cultists":48, "max_bombers":25, "weights":{"ghoul":25,"swarmer":32,"brute":18,"cultist":15,"bomber":10}},
+    {"name":"Final Horde", "start":840, "end":900, "interval":0.18, "count":8, "cap":500, "max_cultists":52, "max_bombers":28, "weights":{"ghoul":22,"swarmer":34,"brute":19,"cultist":15,"bomber":10}}
+  ]
+}
